@@ -26,7 +26,7 @@ y_train, y_test = y[:split_idx], y[split_idx:]
 
 # init model (FROM SCRATCH)
 model = LogisticRegressionFromScratch(
-    lr=0.01,        # ✅ الاسم الصح
+    lr=0.01,         
     epochs=1500
 )
 
